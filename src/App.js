@@ -1,11 +1,10 @@
-
-import './App.css';
-import HomePage from './HomePage.component';
+import "./App.css";
+import HomePage from "./pages/homepage/homepage.component.jsx";
 
 function App() {
   return (
-    <div >
-     <HomePage />
+    <div>
+      <HomePage />
     </div>
   );
 }

@@ -8,7 +8,12 @@
     .logo-container {
       height: 100%;
       width: 70px;
-      padding: 25px;
+      display: flex;
+      justify-content: flex-start;
+    }
+    #Capa_1 {
+      height: 50px;
+
     }
   
     .options {

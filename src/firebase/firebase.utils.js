@@ -2,6 +2,7 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 import "firebase/auth";
 
+
 const config = {
   apiKey: "AIzaSyDIfoqEWVQJQwr266lXsmPTwNZb17qE7BI",
   authDomain: "earthfinn-clothing.firebaseapp.com",

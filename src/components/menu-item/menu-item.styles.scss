@@ -4,9 +4,9 @@
     height: 240px;
     flex: 1 1 auto;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     margin: 0 7.5px 15px;
     overflow: hidden;
 
@@ -43,7 +43,7 @@
     }
    
     .content {
-      height: 90px;
+      height: 80px;
       padding: 0 25px;
       display: flex;
       flex-direction: column;
@@ -52,17 +52,20 @@
       border: 1px solid rgb(255, 255, 255);
       background-color: white;
       position: absolute;
+      opacity: 0.7;
+     
   
       .title {
         font-weight: bold;
         margin-bottom: 6px;
         font-size: 22px;
-        color: #4a4a4a;
+        color: #000000;
       }
   
       .subtitle {
         font-weight: lighter;
         font-size: 16px;
+        color: #000000;
       }
     }
   }
